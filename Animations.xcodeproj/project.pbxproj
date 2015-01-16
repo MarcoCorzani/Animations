@@ -13,6 +13,8 @@
 		A905A4B51A6680B500AE4975 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A905A4B41A6680B500AE4975 /* Images.xcassets */; };
 		A905A4B81A6680B500AE4975 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A905A4B61A6680B500AE4975 /* LaunchScreen.xib */; };
 		A905A4C41A6680B500AE4975 /* AnimationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A905A4C31A6680B500AE4975 /* AnimationsTests.swift */; };
+		A9D4DA841A66E24400FDF292 /* phone_blau.png in Resources */ = {isa = PBXBuildFile; fileRef = A9D4DA821A66E24400FDF292 /* phone_blau.png */; };
+		A9D4DA851A66E24400FDF292 /* phone.png in Resources */ = {isa = PBXBuildFile; fileRef = A9D4DA831A66E24400FDF292 /* phone.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		A905A4BD1A6680B500AE4975 /* AnimationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A905A4C21A6680B500AE4975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A905A4C31A6680B500AE4975 /* AnimationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsTests.swift; sourceTree = "<group>"; };
+		A9D4DA821A66E24400FDF292 /* phone_blau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone_blau.png; sourceTree = "<group>"; };
+		A9D4DA831A66E24400FDF292 /* phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				A905A4AA1A6680B500AE4975 /* Animations */,
 				A905A4C01A6680B500AE4975 /* AnimationsTests */,
 				A905A4A91A6680B500AE4975 /* Products */,
+				A9D4DA821A66E24400FDF292 /* phone_blau.png */,
+				A9D4DA831A66E24400FDF292 /* phone.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -194,6 +200,8 @@
 			files = (
 				A905A4B31A6680B500AE4975 /* Main.storyboard in Resources */,
 				A905A4B81A6680B500AE4975 /* LaunchScreen.xib in Resources */,
+				A9D4DA851A66E24400FDF292 /* phone.png in Resources */,
+				A9D4DA841A66E24400FDF292 /* phone_blau.png in Resources */,
 				A905A4B51A6680B500AE4975 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +413,7 @@
 				A905A4C91A6680B500AE4975 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A905A4CA1A6680B500AE4975 /* Build configuration list for PBXNativeTarget "AnimationsTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				A905A4CC1A6680B500AE4975 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
